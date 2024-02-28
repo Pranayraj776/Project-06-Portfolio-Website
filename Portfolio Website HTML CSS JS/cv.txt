@@ -1,0 +1,34 @@
+Personal Information
+Name: Pranay Raj
+Date of Birth: July 24, 2003
+
+
+Great! Let's add the education section to your CV:
+
+Education:
+Primary Schooling Completion
+Year: 2022
+School Name: [Sarvodaya Public School]
+
+
+Bachelor of Computer Application (BCA)
+University: Manipal University Jaipur
+Duration: 2022 - 2025 (Expected)
+
+Skills:
+Web Development:
+ HTML, CSS, Bootstrap, JavaScript, React , SQL , SEO
+Video Production: Camera Representation, Scripting, Video Editing
+Extracurricular Activities:
+Passionate about creating video content for social media, focusing on tech, programming, web development, and projects.
+Active on Instagram for sharing video content. [Instagram Profile Link: Insert Your Link Here]
+Projects (GitHub: [Your GitHub Profile Link])
+[Project Name 1]
+
+Description: Brief description of the project.
+Technologies Used: List the technologies utilized.
+[Project Name 2]
+
+Description: Brief description of the project.
+Technologies Used: List the technologies utilized.
+(Add more projects as needed)

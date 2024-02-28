@@ -1,0 +1,334 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Code+Pro&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Poppins:wght@300&family=Source+Code+Pro&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Acme&family=Mukta:wght@300&family=Poppins:wght@300&family=Source+Code+Pro&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');*/
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:grey;
+    
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s ease-in;
+  
+   
+}
+.sidebar nav{
+    padding: 35px;
+    
+}
+.sidebar nav li{
+    padding: 30px;
+    list-style: none;
+    font-size: 25px;
+    
+   
+}
+.sidebar nav li a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(8, 8, 8);
+}
+
+.sidebar nav li a:hover{
+    
+    color: rgb(226, 220, 220);
+
+}
+    
+
+.main{
+    background-color:#d5d8dc;
+   
+    width: 187vw;
+    height: 100vh;
+}
+
+h2{
+    padding-top: 15px;
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    border-radius: 20px;
+    border-style: outset;
+    background-color: lightgray;
+    border-color: #424949;
+    height: 68vh;
+    width: 80vw;
+    margin: 117px auto;
+    display: flex;
+    justify-content: space-around; 
+    
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    
+    font-size: 30px;
+    /*font-weight: bold;*/
+}
+.name{
+    
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.about{
+   
+    font-size: 30px;
+}
+
+
+.moreabout{
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Acme', sans-serif;
+}
+.button{
+    margin-top: 14px;
+    
+    
+}
+ .button button{
+    padding: 9px 14px;
+    border-radius: 15px;
+    color: rgb(10, 9, 9);
+    background-color: #85929E;
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer; 
+ }
+ 
+ .button button:hover{
+    background-color: #EBEDEF;
+    color:#01080e;
+
+ }   
+
+.devpic img {
+    height: 68vh;
+     clip-path: circle(55% at 48% 48%);/*This can add a frame(here circular) to your image.You can change the radius of your frame. */
+    
+ 
+   
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    /*text-align: center;*/
+    
+}
+
+
+.contactform{
+    padding-top: 180px;
+    padding-left: 34px;
+    font-family: 'Acme', sans-serif;
+    margin: 0 88px;
+    
+   
+
+}
+
+.contactform div{
+    padding: 8px 0;
+}
+
+#emailhelp{
+    font-size: 15px;
+    color: #474b4e;
+    margin: 0 5px;
+}
+
+.submitbutton{
+    padding: 5px;
+    font-size: 18px;
+    color: black;
+    border-radius: 45px;
+    
+}
+
+.submitbutton:hover{
+    background-color: grey;
+    color: white;
+
+}
+
+.blogcontainer{
+    margin: 0 48px;
+}
+
+.blogitem{
+    margin: 20px;
+    font-family: 'Acme', sans-serif;
+
+}
+
+.blogcontainer h1{
+    font-family: 'Source Code Pro', monospace;
+    margin: 23px;
+
+}
+
+.btn{
+   font-size: 10px;
+   padding: 7px 13px;
+   margin: 10px 0;
+   border-radius: 12px;
+    
+    
+}
+
+.intro h2{
+    font-family:'Acme', sans-serif;
+    margin: 12px;
+
+}
+
+.intro p{
+    font-weight: bolder;
+    margin: 12px;
+    
+}
+
+.skill{
+    
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+     border-radius: 15px;
+    
+
+}
+
+.skillcontainer{
+    
+    padding: 15px;
+
+}
+
+.skillitem{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 900px;
+}
+
+.hundred{
+    width: 265px;
+    background-color:#17202A;
+}
+
+.fifty{
+    width: 125px;
+    background-color:#2E4053 ;
+}
+
+.t5{
+    width: 75px;
+    background-color: #C0392B ;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger{
+   position: absolute;
+   cursor: pointer; 
+   top: 10px;
+   left: 10px;
+}
+
+.cross{
+    margin-left: 164px;
+    
+}
+
+.socialmedia{
+    padding: 15px;
+
+}
+
+#instagram{
+    padding: 15px; 
+    font-size: 20px;
+    font-weight: bolder;
+   
+    
+}
+
+#github{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+   
+}
+
+#linkedin{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+#instagramlogo{
+    width: 25px;
+}
+
+#githublogo{
+    width: 25px;
+}
+
+#linkedinlogo{
+    width: 25px;
+}
+
+.cv{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 500px) {
+  * {background-color: rgb(46, 42, 42);}
+  .sidebar{
+    transform:translate(-443px, 8px);
+    position: absolute;
+  }
+    
+}
+
+
+.intro, .blogcontainer, .contactform{
+    margin: 8px;
+}
+
+
+
+
+
+
+
+
+
